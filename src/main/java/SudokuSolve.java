@@ -83,7 +83,7 @@ public class SudokuSolve {
             if(i%3==0 && i !=0){
                 System.out.println("------------------");
             }
-            for(int j=0;j<taille;j++){
+            for(int j=0;j <taille;j++){
                 System.out.print(tab[i][j]+"|");
             }
             System.out.println();
