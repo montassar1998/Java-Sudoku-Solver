@@ -80,7 +80,7 @@ public class SudokuSolve {
 
     private static void printtab(int[][] tab) {
         for(int i=0;i<taille;i++){
-            if(i%3==0 && i!=0){
+            if(i%3==0 && i !=0){
                 System.out.println("------------------");
             }
             for(int j=0;j<taille;j++){
